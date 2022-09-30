@@ -1,4 +1,13 @@
 @import-normalize; /* bring in normalize.css styles */
+:root{
+--color-headerText:#FFFFFF;
+
+
+
+--default-color:#ffffff;
+}
+
+
 
 body {
   margin: 0;
@@ -7,6 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--default-color);
 }
 
 code {

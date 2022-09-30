@@ -1,16 +1,10 @@
+import Order from "./views/Order/Order";
+import Hustle from "./views/Hustle/Hustle";
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Order/>
+      <Hustle/>
     </div>
   );
 };
