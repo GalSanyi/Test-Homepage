@@ -1,7 +1,73 @@
 .hero__img{
-    min-width: 352px;
+position: relative;
+    width: 352px;
     height: 586px;
+    margin: 0 auto;
     background-image: url('../../images/HeroMobile.png');
     background-repeat: no-repeat;
-    background-position: center; 
+    
+}
+
+.hero__mainText{
+    padding-left: 20px;
+    padding-top: 24px;
+}
+.tackle__container{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.tackle{
+width: 304px;
+height: 88px;
+
+}
+.tackle__block{
+width: 143px;
+height: 48px;
+}
+.tackle__text{
+font-family: 'Basis Grotesque Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+align-items: center;
+color: var(--color-white);
+}
+
+.ingredients{
+    width: 215px;
+    height: 32px;
+   
+}
+.ingredients__text{
+font-family: 'Basis Grotesque Pro Mono';
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: var(--color-white);
+}
+
+
+.btn{
+    
+width: 304px;
+height: 30px;
+margin-top: 20px;
+background:var(--color-white);
+border-radius: 500px;
+border: none;
+cursor: pointer;
+text-align: center;
+font-family: 'Basis Grotesque Pro Mono';
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--color-blue);
+
 }

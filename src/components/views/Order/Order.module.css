@@ -1,14 +1,14 @@
 .container{
-    min-width: 320px;
+    min-width: 360px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .wrapper{
-      height: 32px;
+height: 32px;
 left: 0px;
 top: 0px;
-background: #6299FF;
+background: var(--color-blue);
 }
 .header__text {
 font-family: 'Basis Grotesque Pro';
@@ -19,6 +19,6 @@ margin: 0;
 text-align: center;
 letter-spacing: 0.04em;
 text-transform: uppercase;
-color:var(--color-headerText);
+color:var(--color-white);
 
 }

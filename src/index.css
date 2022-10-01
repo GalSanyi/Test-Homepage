@@ -1,13 +1,16 @@
 @import-normalize; /* bring in normalize.css styles */
 :root{
---color-headerText:#FFFFFF;
-
-
+--color-white:#FFFFFF;
+--color-blue:#6299FF;
+--color-black:#000000;
 
 --default-color:#ffffff;
 }
 
-
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   margin: 0;
