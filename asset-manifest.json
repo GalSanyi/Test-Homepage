@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/Test-Homepage/static/css/main.657194cc.css",
-    "main.js": "/Test-Homepage/static/js/main.d5a2a22c.js",
+    "main.css": "/Test-Homepage/static/css/main.65317a0e.css",
+    "main.js": "/Test-Homepage/static/js/main.6c074f49.js",
     "static/media/HeroMobile.png": "/Test-Homepage/static/media/HeroMobile.42212565a828c92d0151.png",
+    "static/media/imageGirl.png": "/Test-Homepage/static/media/imageGirl.6e7419cffc5d56fb331b.png",
+    "static/media/Tubes.png": "/Test-Homepage/static/media/Tubes.5ae1dee5b7a1cf670e82.png",
     "index.html": "/Test-Homepage/index.html",
     "static/media/UserCircle.svg": "/Test-Homepage/static/media/UserCircle.91b0a41ded6c73ed289fde38b2e28534.svg",
     "static/media/BagSimple.svg": "/Test-Homepage/static/media/BagSimple.1edcad31d4c1ac237eb0c2d743d0c405.svg",
     "static/media/Glass.svg": "/Test-Homepage/static/media/Glass.fbd5c3133af6b3671ee71fe919cc25ff.svg",
     "static/media/Hamburger.svg": "/Test-Homepage/static/media/Hamburger.ad21a5c4c627dcc579bbbb73d869e196.svg",
-    "main.657194cc.css.map": "/Test-Homepage/static/css/main.657194cc.css.map",
-    "main.d5a2a22c.js.map": "/Test-Homepage/static/js/main.d5a2a22c.js.map"
+    "main.65317a0e.css.map": "/Test-Homepage/static/css/main.65317a0e.css.map",
+    "main.6c074f49.js.map": "/Test-Homepage/static/js/main.6c074f49.js.map"
   },
   "entrypoints": [
-    "static/css/main.657194cc.css",
-    "static/js/main.d5a2a22c.js"
+    "static/css/main.65317a0e.css",
+    "static/js/main.6c074f49.js"
   ]
 }
