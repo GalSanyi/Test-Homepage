@@ -4,6 +4,8 @@ import Hero from "./views/Hero/Hero";
 import Set from "./views/Set/Set";
 import RunningLine from "./views/RunningLine/RunningLine";
 import SunProtection from "./views/SunProtection/SunProtection";
+import Bicycle from "./views/Bicycle/Bicycle";
+
 export const App = () => {
   return (
     <div>
@@ -15,6 +17,7 @@ export const App = () => {
       <Set/>
       <SunProtection/>
       <Set/>
+     <Bicycle/>
     </div>
   );
 };
