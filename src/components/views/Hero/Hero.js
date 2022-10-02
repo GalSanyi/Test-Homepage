@@ -15,12 +15,12 @@ function Hero() {
 
 <div className={s.tackle}>
   <div className={s.tackle__block} >
-<h1 className={s.tackle__text}>Let’s tackle this together.</h1>
+<p className={s.tackle__text}>Let’s tackle this together.</p>
   </div>
 
   <div className={s.ingredients}>
 
-<h2 className={s.ingredients__text}>Thoughtfully formulated with conscious ingredients.</h2>
+<p className={s.ingredients__text}>Thoughtfully formulated with conscious ingredients.</p>
   </div>
   </div>
 <button className={s.btn}>Learn More</button>

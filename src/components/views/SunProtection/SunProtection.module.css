@@ -1,0 +1,81 @@
+
+.container{
+    min-width: 320px;
+    margin-top: 36px;
+}
+
+.AllDay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+   background-image: url('../../images/Frame.png');
+   border-radius: 12px;
+}
+
+.AllDay__box{
+display: flex;
+justify-content: center;
+
+}
+.text__AllDay{
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.text__spf{
+margin-top: 12px;
+font-family: 'Basis Grotesque Pro Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: var(--color-white);
+
+}
+
+.btn__box{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+width: 111px;
+height: 30px;
+margin-top: 32px;
+background: #FFFFFF;
+border-radius: 500px;
+border:none;
+font-family: 'Basis Grotesque Pro Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #6299FF;
+cursor: pointer;
+}
+
+.glow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   margin-top: 20px;
+    width: 320px;
+    height: 320px;
+   background-image: url('../../images//Glow.png');   
+   border-radius: 12px;
+}

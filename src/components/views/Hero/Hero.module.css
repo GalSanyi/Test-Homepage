@@ -39,6 +39,7 @@ color: var(--color-white);
 .ingredients{
     width: 215px;
     height: 32px;
+    margin-top: 8px;
    
 }
 .ingredients__text{
