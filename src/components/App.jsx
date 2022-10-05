@@ -5,6 +5,8 @@ import Set from "./views/Set/Set";
 import RunningLine from "./views/RunningLine/RunningLine";
 import SunProtection from "./views/SunProtection/SunProtection";
 import Bicycle from "./views/Bicycle/Bicycle";
+import BagSection from "./views/BagSection/BagSection";
+
 
 export const App = () => {
   return (
@@ -18,6 +20,7 @@ export const App = () => {
       <SunProtection/>
       <Set/>
      <Bicycle/>
+     <BagSection/>
     </div>
   );
 };

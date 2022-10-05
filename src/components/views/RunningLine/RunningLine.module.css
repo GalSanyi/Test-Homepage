@@ -30,11 +30,9 @@
     margin-right: auto 
 }
 .tubes__background{
-    width: 196px;
+width: 196px;
 height: 275px;
-
-
-background: #F5F0EC;
+background: var(--color-backgroundTubes);
 border-radius: 8px;
 }
 
@@ -80,6 +78,6 @@ color: var(--color-back);
     border-radius: 500px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #6299FF;
+    color: var(--color-blue);
 
 }
