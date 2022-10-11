@@ -1,3 +1,12 @@
+.wrapper{
+    display: flex;
+}
+
+.stars__container{
+ margin-right: 7px;
+line-height: 14px;
+}
+
 input[type='radio'] {
     display: none;
 }
@@ -5,4 +14,13 @@ input[type='radio'] {
 .star{
     cursor:pointer;
     transition: color 200ms;
+}
+
+.reviews{
+font-family: 'Basis Grotesque Pro';
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+letter-spacing: 0.04em;
+color: var(--color-black);
 }

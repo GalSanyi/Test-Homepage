@@ -1,0 +1,10 @@
+.tone__list{
+    display: flex;
+    list-style: none;
+
+
+}
+
+.tone__item{
+    margin-right: 6px;
+}

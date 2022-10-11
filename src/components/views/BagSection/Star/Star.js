@@ -4,21 +4,38 @@ import { useState } from 'react';
 
 
 function Star() {
- const [rating, setrating] = useState(null)
+ const [rating, setRating] = useState(null);
+ const [hover, setHover]= useState(null);
   return (
-    <div>
-    {[...Array(5)].map((star, i)=>{
+    <div className={s.wrapper}>
+
+  <div className={s.stars__container}>
+  {[...Array(5)].map((index, i)=>{
 const rantingValue = i + 1
 
     return (
-        <label key={i}>
-            <input  type='radio' value={rantingValue} name='rating'/>
-     <GrStar className={s.star} size={9}/>
+     
+        <label key={index}>
+            <input  
+            type='radio'
+            name='rating'
+            value={rantingValue}
+            onClick={()=>setRating(rantingValue)}
+              />
+     <GrStar className={s.star} 
+     size={9}
+        color={rantingValue <= (hover || rating) ?  '#6299FF' :'#E7EDFA'}
+        onMouseEnter={()=>setHover(rantingValue)}
+        onMouseLeave={()=>setHover(null)}
+     />
             </label>
+
     )
        
 })}
+  </div>
     
+     <p className={s.reviews}>| {rating} Reviews</p>
     
     </div>
   )

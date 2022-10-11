@@ -69,16 +69,7 @@ color: var(--color-black);
 
 }
 
-.tone__list{
-    display: flex;
-    list-style: none;
 
-
-}
-
-.tone__item{
-    margin-right: 6px;
-}
 .sum{
 font-family: 'Basis Grotesque Pro Mono';
 font-weight: 400;

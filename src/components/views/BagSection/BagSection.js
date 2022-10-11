@@ -1,12 +1,7 @@
 import s from './BagSection.module.css';
 import Tubes from '../../images/Tubes.png';
-import MaskGroup from '../../images/svg/Mask group.svg';
-import MaskGroup2 from '../../images/svg/Mask group 2.svg'
-import MaskGroup3 from '../../images/svg/Mask group3.svg';
-import MaskGroup4 from '../../images/svg/Mask group4.svg';
-import MaskGroup5 from  '../../images/svg/Mask group5.svg';
-import Group from '../../images/svg/Group.svg';
 import Star from './Star/Star';
+import Tone from './Tone/Tone';
 function BagSection() {
   return (
     <div className={s.container}>
@@ -23,53 +18,8 @@ function BagSection() {
                 <img className={s.Tubes__img} src={Tubes} alt={Tubes}/>
             </li>
                     <p className={s.title}>Tinted moisturizer</p>
-
-
-
-                    <ul className={s.tone__list}>
-               <li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup} alt={MaskGroup}/>
-</span>
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup2} alt={MaskGroup2}/>
-</span>
-
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup3} alt={MaskGroup3}/>
-</span>
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup4} alt={MaskGroup4}/>
-</span>
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup5} alt={MaskGroup5}/>
-</span>
-
-</li>
-<li >
-
-<span>
-    <img src={Group} alt={Group}/>
-</span>
-
-</li>
-               </ul>
+                   
+     <input  type='radio'/>
                <span className={s.sum}>$21.99</span>
                     
 
@@ -86,50 +36,7 @@ function BagSection() {
                 <img className={s.Tubes__img} src={Tubes} alt={Tubes}/>
             </li>
                     <p className={s.title}>Tinted moisturizer</p>
-                    <ul className={s.tone__list}>
-               <li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup} alt={MaskGroup}/>
-</span>
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup2} alt={MaskGroup2}/>
-</span>
-
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup3} alt={MaskGroup3}/>
-</span>
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup4} alt={MaskGroup4}/>
-</span>
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup5} alt={MaskGroup5}/>
-</span>
-
-</li>
-<li >
-
-<span>
-    <img src={Group} alt={Group}/>
-</span>
-
-</li>
-               </ul>
+                <Tone/>
                <span className={s.sum}>$21.99</span> 
             </div>
             
@@ -142,50 +49,7 @@ function BagSection() {
                 <img className={s.Tubes__img} src={Tubes} alt={Tubes}/>
             </li>
                     <p className={s.title}>Tinted moisturizer</p>
-                    <ul className={s.tone__list}>
-               <li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup} alt={MaskGroup}/>
-</span>
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup2} alt={MaskGroup2}/>
-</span>
-
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup3} alt={MaskGroup3}/>
-</span>
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup4} alt={MaskGroup4}/>
-</span>
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup5} alt={MaskGroup5}/>
-</span>
-
-</li>
-<li >
-
-<span>
-    <img src={Group} alt={Group}/>
-</span>
-
-</li>
-               </ul>
+                <Tone/>
   <span className={s.sum}>$21.99</span>
         </div>
 
@@ -200,54 +64,18 @@ function BagSection() {
                 <img className={s.Tubes__img} src={Tubes} alt={Tubes}/>
             </li>
                     <p className={s.title}>Tinted moisturizer</p>
-                    <ul className={s.tone__list}>
-               <li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup} alt={MaskGroup}/>
-</span>
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup2} alt={MaskGroup2}/>
-</span>
-
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup3} alt={MaskGroup3}/>
-</span>
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup4} alt={MaskGroup4}/>
-</span>
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup5} alt={MaskGroup5}/>
-</span>
-
-</li>
-<li >
-
-<span>
-    <img src={Group} alt={Group}/>
-</span>
-
-</li>
-               </ul>
+                  <Tone/>
                <span className={s.sum}>$21.99</span>
             </div>
-      <Star/>
+
+      
+            
+            
+        
+<Star/>
         </ul>
+      
+<button>add to bag</button>
     </div>
   )
 }

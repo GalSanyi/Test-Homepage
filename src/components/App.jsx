@@ -8,6 +8,7 @@ import Bicycle from "./views/Bicycle/Bicycle";
 import BagSection from "./views/BagSection/BagSection";
 
 
+
 export const App = () => {
   return (
     <div>

@@ -9,6 +9,7 @@ function Hero() {
 <div className={s.hero__mainText}>
 <img src={Mask} alt={Mask}/>
 </div>
+<input type="radio"/>
 
 
 <div className={s.tackle__container}>
