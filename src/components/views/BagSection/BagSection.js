@@ -9,7 +9,6 @@ function BagSection() {
         <div>
             <li className={s.item}>
                 <div className={s.arrival}>
-              
 
                     <p className={s.arrival__text}>New Arrival</p>
               
@@ -19,7 +18,12 @@ function BagSection() {
                 <img className={s.Tubes__img} src={Tubes} alt={Tubes}/>
                 </div>
             </li>
+                    <div className={s.Title__block}>
                     <p className={s.title}>Tinted moisturizer</p>
+                    <div className={s.Spf}>
+                        <p className={s.Spf__text}>SPF 30</p>
+                    </div>
+            </div>
                    
                     <Tone/>
                <span className={s.sum}>$21.99</span>
@@ -37,7 +41,12 @@ function BagSection() {
             </div>
                 <img className={s.Tubes__img} src={Tubes} alt={Tubes}/>
             </li>
+            <div className={s.Title__block}>
                     <p className={s.title}>Tinted moisturizer</p>
+                    <div className={s.Spf}>
+                        <p className={s.Spf__text}>SPF 30</p>
+                    </div>
+            </div>
                 <Tone/>
                <span className={s.sum}>$21.99</span> 
                <Star/>
@@ -52,7 +61,12 @@ function BagSection() {
                 </div>
                 <img className={s.Tubes__img} src={Tubes} alt={Tubes}/>
             </li>
+            <div className={s.Title__block}>
                     <p className={s.title}>Tinted moisturizer</p>
+                    <div className={s.Spf}>
+                        <p className={s.Spf__text}>SPF 30</p>
+                    </div>
+            </div>
                 <Tone/>
   <span className={s.sum}>$21.99</span>
   <Star/>
@@ -69,7 +83,12 @@ function BagSection() {
             </div>
                 <img className={s.Tubes__img} src={Tubes} alt={Tubes}/>
             </li>
+            <div className={s.Title__block}>
                     <p className={s.title}>Tinted moisturizer</p>
+                    <div className={s.Spf}>
+                        <p className={s.Spf__text}>SPF 30</p>
+                    </div>
+            </div>
                   <Tone/>
                <span className={s.sum}>$21.99</span>
 <Star/>

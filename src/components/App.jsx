@@ -6,7 +6,7 @@ import RunningLine from "./views/RunningLine/RunningLine";
 import SunProtection from "./views/SunProtection/SunProtection";
 import Bicycle from "./views/Bicycle/Bicycle";
 import BagSection from "./views/BagSection/BagSection";
-
+import FaceGirl from "./views/FaceGirl/FaceGirl";
 
 
 export const App = () => {
@@ -22,6 +22,8 @@ export const App = () => {
       <Set/>
      <Bicycle/>
      <BagSection/>
+     <FaceGirl/>
+     <Set/>
     </div>
   );
 };
