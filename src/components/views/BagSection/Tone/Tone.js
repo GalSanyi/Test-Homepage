@@ -1,60 +1,47 @@
-// import s from './Tone.module.css'
-// import MaskGroup from '../../../images/svg/Mask group.svg';
-// import MaskGroup2 from '../../../images/svg/Mask group 2.svg'
-// import MaskGroup3 from '../../../images/svg/Mask group3.svg';
-// import MaskGroup4 from '../../../images/svg/Mask group4.svg';
-// import MaskGroup5 from  '../../../images/svg/Mask group5.svg';
-// import { AiOutlinePlusCircle } from "react-icons/ai";
+import s from './Tone.module.css'
+import { AiOutlinePlusCircle } from "react-icons/ai";
+import ToneCreme from '../../../images/svg/Tone.svg';
+import ToneCreme2 from '../../../images/svg/Tone2.svg';
+import ToneCreme3 from '../../../images/svg/Tone3.svg';
+import ToneCreme4 from '../../../images/svg/Tone4.svg';
+import ToneCreme5 from '../../../images/svg/Tone5.svg';
 
 function Tone() {
   return (
     <div>
-       {/* <ul className={s.tone__list}>
- <li className={s.tone__item}>
-<span>
-    <img src={MaskGroup} alt={MaskGroup}/>
-</span>
-</li>
+  
+  <label>
+<input className={s.label} type='radio'/>
+<img src={ToneCreme} alt={ToneCreme}/>
+</label>  
 
-<li className={s.tone__item}>
+  <label>
+<input className={s.label} type='radio'/>
+<img src={ToneCreme2} alt={ToneCreme2}/>
+</label>  
 
-<span>
-    <img src={MaskGroup2} alt={MaskGroup2}/>
-</span>
+  <label>
+<input className={s.label} type='radio'/>
+<img src={ToneCreme3} alt={ToneCreme3}/>
+</label>  
 
+  <label>
+<input className={s.label} type='radio'/>
+<img src={ToneCreme4} alt={ToneCreme4}/>
+</label>  
 
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup3} alt={MaskGroup3}/>
-</span>
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup4} alt={MaskGroup4}/>
-</span>
-
-</li>
-<li className={s.tone__item}>
-
-<span>
-    <img src={MaskGroup5} alt={MaskGroup5}/>
-</span>
-
-</li>
-<li >
+  <label>
+<input className={s.label} type='radio'/>
+<img src={ToneCreme5} alt={ToneCreme5}/>
+</label>  
 
 
-</li>
-              
+
 <span>
    
     <AiOutlinePlusCircle/>
 </span>
- </ul> */}
+
 
 
     </div>
