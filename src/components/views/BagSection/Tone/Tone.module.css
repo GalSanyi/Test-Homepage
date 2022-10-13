@@ -1,14 +1,12 @@
-.tone__list{
-    display: flex;
-    list-style: none;
-
-
+.tone__list {
+  display: flex;
+  list-style: none;
 }
 
-.tone__item{
-    margin-right: 6px;
+.tone__item {
+  margin-right: 6px;
 }
 
 label {
-    margin-right: 7px;
+  margin-right: 7px;
 }

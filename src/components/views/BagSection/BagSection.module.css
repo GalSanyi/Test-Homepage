@@ -1,129 +1,125 @@
-.container{
-    margin: 0 auto;
-    max-width: 320px;
+.container {
+  margin: 0 auto;
+  max-width: 320px;
 }
 
-.list{
-display: flex;
-flex-wrap: wrap;
-list-style: none;
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
-.item{
-margin-right: 20px;
-margin-top: 20px;
-width: 150px;
-height: 192px;
-background: var(--color-backgroundTubes);
-border-radius: 8px;
-padding-top: 1px;
-
+.item {
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 150px;
+  height: 192px;
+  background: var(--color-backgroundTubes);
+  border-radius: 8px;
+  padding-top: 1px;
 }
 
-.item__2{
-    margin-top: 20px;
-    width: 150px;
-    height: 192px;
-    background: var(--color-backgroundTubes);
-    border-radius: 8px;
-    padding-top: 1px;
+.item__2 {
+  margin-top: 20px;
+  width: 150px;
+  height: 192px;
+  background: var(--color-backgroundTubes);
+  border-radius: 8px;
+  padding-top: 1px;
 }
 
-.arrival{
-width: 60px;
-height: 16px;
-margin-left: auto;
-margin-top: 8px;
-margin-right: 8px;
-background:var(--color-green);
-border-radius: 500px;
+.arrival {
+  width: 60px;
+  height: 16px;
+  margin-left: auto;
+  margin-top: 8px;
+  margin-right: 8px;
+  background: var(--color-green);
+  border-radius: 500px;
 }
-.arrival__text{
-font-family: 'Basis Grotesque Pro';
-font-style: normal;
-font-weight: 500;
-font-size: 10px;
-line-height: 130%;
-text-align: center;
-text-transform: capitalize;
-color: var(--color-black);
-}
-
-.Tubes__img{
-width: 53px;
-height: 160px;
-display: block;
-margin: 0 auto;
+.arrival__text {
+  font-family: 'Basis Grotesque Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-black);
 }
 
-.Title__block{
-    display: flex;
+.Tubes__img {
+  width: 53px;
+  height: 160px;
+  display: block;
+  margin: 0 auto;
 }
 
-.title{
-width: 85px;
-height: 32px;
-margin-top: 8px;
-margin-bottom: 8px;
-font-family: 'Basis Grotesque Pro Mono';
-font-weight: 400;
-font-size: 12px;
-line-height: 130%;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-color: var(--color-black);
-
+.Title__block {
+  display: flex;
 }
 
-.Spf{
- display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 6px;
-width: 47px;
-height: 16px;
-background: var(--color-blue);
-border-radius: 500px;
+.title {
+  width: 85px;
+  height: 32px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: 'Basis Grotesque Pro Mono';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-black);
 }
 
-.Spf__text{
-font-family: 'Basis Grotesque Pro';
-font-weight: 500;
-font-size: 10px;
-line-height: 130%;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: capitalize;
-color: var(--color-white);
+.Spf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+  width: 47px;
+  height: 16px;
+  background: var(--color-blue);
+  border-radius: 500px;
 }
 
-.sum{
-font-family: 'Basis Grotesque Pro Mono';
-font-weight: 400;
-font-size: 12px;
-line-height: 150%;
-text-align: center;
-letter-spacing: 0.04em;
-color:var(--color-black);
+.Spf__text {
+  font-family: 'Basis Grotesque Pro';
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 130%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  color: var(--color-white);
 }
 
-.button{
-align-items: center;
-padding: 6px 24px;
-width: 150px;
-height: 30px;
-box-sizing: border-box;
-border:1px solid var(--color-blue);
-background:none;
-border-radius: 500px;
-font-family: 'Basis Grotesque Pro Mono';
-font-weight: 400;
-font-size: 12px;
-line-height: 130%;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color:var(--color-blue);
+.sum {
+  font-family: 'Basis Grotesque Pro Mono';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-black);
 }
 
-
+.button {
+  align-items: center;
+  padding: 6px 24px;
+  width: 150px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid var(--color-blue);
+  background: none;
+  border-radius: 500px;
+  font-family: 'Basis Grotesque Pro Mono';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-blue);
+}

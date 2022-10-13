@@ -1,31 +1,31 @@
-h2{
-    margin-top: 60px;
-    
-font-family: 'Basis Grotesque Pro';
-font-weight: 400;
-font-size: 14px;
-line-height: 120%;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color:var(--color-black);
+h2 {
+  margin-top: 60px;
+
+  font-family: 'Basis Grotesque Pro';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-black);
 }
-h3{
-   margin-top: 8px;
-    font-family: 'Basis Grotesque Pro Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 130%;
-    text-align: center;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--color-black);
+h3 {
+  margin-top: 8px;
+  font-family: 'Basis Grotesque Pro Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-black);
 }
-.line{
-width: 320px;
-height: 0px;
-margin: 0 auto;
-margin-top: 8px;
-border: 1px solid var(--color-blue);
+.line {
+  width: 320px;
+  height: 0px;
+  margin: 0 auto;
+  margin-top: 8px;
+  border: 1px solid var(--color-blue);
 }

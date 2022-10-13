@@ -1,15 +1,14 @@
 import s from './FaceGirl.module.css';
-import RunningLine from '../RunningLine/RunningLine';
+import RunningLine from './RunningLine/RunningLine';
 function FaceGirl() {
   return (
     <div className={s.container}>
-    <div className={s.wrapper}>
-<p className={s.text}>All Day Sun Protection</p>
+      <div className={s.wrapper}>
+        <p className={s.text}>All Day Sun Protection</p>
+      </div>
+      <RunningLine />
     </div>
-<RunningLine/>
-
-    </div>
-    )
+  );
 }
 
-export default FaceGirl
+export default FaceGirl;

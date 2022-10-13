@@ -1,0 +1,36 @@
+.marquee__infinite {
+  margin-top: 20px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.marquee__block {
+  display: flex;
+  width: 200%;
+  animation: marquee-infinite 10s linear infinite;
+}
+.marquee__content {
+  width: 100%;
+  display: flex;
+  margin-right: 20px;
+  flex-wrap: wrap;
+}
+
+.tubes__background {
+  width: 150px;
+  height: 150px;
+  background: rgba(200, 219, 255, 0.3);
+  border-radius: 8px;
+}
+
+.marquee__infinite:hover .marquee__block {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-infinite {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

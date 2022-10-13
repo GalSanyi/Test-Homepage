@@ -1,22 +1,28 @@
 .container {
-  min-width: 320px;
-  margin-top: 36px;
-}
-
-.AllDay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
   width: 320px;
-  height: 519px;
-  background-image: url('../../images/FrameGirl.png');
-  border-radius: 12px;
+  margin: 0 auto;
 }
 
-.AllDay__box {
+.GroupGirlies {
   display: flex;
   justify-content: center;
+  align-items: self-end;
+  margin-top: 20px;
+  width: 320px;
+  height: 320px;
+  background-image: url('../../images/GroupGirlies.png');
+}
+.GroupGirl {
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+  margin-top: 20px;
+  width: 320px;
+  height: 320px;
+  background-image: url('../../images/GroupGirl.png');
+}
+.text__box {
+  margin-bottom: 42px;
 }
 .text__AllDay {
   font-family: 'Basis Grotesque Pro';
@@ -29,28 +35,10 @@
   text-align: center;
   color: var(--color-white);
 }
-
-.text__spf {
-  margin-top: 12px;
-  font-family: 'Basis Grotesque Pro Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 130%;
-  text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--color-white);
-}
-
-.btn__box {
-  display: flex;
-  justify-content: center;
-}
 .btn {
   width: 111px;
   height: 30px;
-  margin-top: 32px;
+  margin-top: 15px;
   background: #ffffff;
   border-radius: 500px;
   border: none;

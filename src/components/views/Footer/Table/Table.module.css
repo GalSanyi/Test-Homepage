@@ -1,0 +1,35 @@
+button {
+  border: none;
+}
+.Table__main {
+  display: flex;
+  margin-top: 31px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.table__1 {
+  margin-right: 68px;
+  padding-top: 14px;
+  padding-bottom: 18px;
+}
+.table__2 {
+  border-left: 1px solid#000;
+  padding-left: 18px;
+  padding-top: 18px;
+  font-family: 'Basis Grotesque Pro Mono';
+}
+
+.Table__text {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.Table__text:last-child {
+  margin-bottom: 0;
+}
