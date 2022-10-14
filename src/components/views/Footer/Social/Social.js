@@ -6,13 +6,13 @@ function Social() {
   return (
     <>
       <ul className={s.social}>
-        <li>
+        <li className={s.social__item}>
           <a href="https://uk-ua.facebook.com/">{<BsFacebook fill="#000" />}</a>
         </li>
-        <li>
+        <li className={s.social__item}>
           <a href="https://twitter.com/">{<BsTwitter fill="#000" />}</a>
         </li>
-        <li>
+        <li className={s.social__item}>
           <a href="https://www.instagram.com/">{<BsInstagram fill="#000" />}</a>
         </li>
       </ul>

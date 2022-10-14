@@ -4,8 +4,8 @@ button {
 .Table__main {
   display: flex;
   margin-top: 31px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: 1px solid var(--color-blue);
+  border-bottom: 1px solid var(--color-blue);
 }
 
 .table__1 {
@@ -14,10 +14,21 @@ button {
   padding-bottom: 18px;
 }
 .table__2 {
-  border-left: 1px solid#000;
+  border-left: 1px solid var(--color-blue);
   padding-left: 18px;
   padding-top: 18px;
   font-family: 'Basis Grotesque Pro Mono';
+}
+
+.Table__store {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-black);
 }
 
 .Table__text {
@@ -28,8 +39,51 @@ button {
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--color-black);
 }
 .Table__text:last-child {
   margin-bottom: 0;
+}
+
+.Table__text2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+.Table__help {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+.Table__faq {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+.Table__returns {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-black);
 }
