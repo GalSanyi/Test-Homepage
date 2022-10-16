@@ -1,5 +1,5 @@
 import s from './FooterForm.module.css';
-
+import FormBox from './FormBox/FormBox';
 function FooterForm() {
   return (
     <div className={s.FooterForm__container}>
@@ -8,10 +8,7 @@ function FooterForm() {
         Sign up for email updates on products, launches, and events. Unsubscribe
         anytime.
       </p>
-      <form>
-        <input />
-        <button>submit</button>
-      </form>
+      <FormBox />
     </div>
   );
 }

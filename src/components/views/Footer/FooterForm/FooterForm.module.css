@@ -23,39 +23,4 @@
   color: var(--color-black);
   margin-bottom: 16px;
 }
-form {
-  /* This bit sets up the horizontal layout */
-  display: flex;
-  flex-direction: row;
 
-  /* This bit draws the box around it */
-  width: 320px;
-  height: 32px;
-
-  border: 1px solid #6299ff;
-  border-radius: 47px;
-
-  /* I've used padding so you can see the edges of the elements. */
-  padding: 2px;
-}
-
-input {
-  /* Tell the input to use all the available space */
-  flex-grow: 2;
-  /* And hide the input's outline, so the form looks like the outline */
-  border: none;
-}
-
-input:focus {
-  /* removing the input focus blue box. Put this on the form if you like. */
-  outline: none;
-}
-
-button {
-  /* Just a little styling to make it pretty */
-  width: 100px;
-  height: 32px;
-
-  border: 1px solid #6299ff;
-  border-radius: 37px;
-}

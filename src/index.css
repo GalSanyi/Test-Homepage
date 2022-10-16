@@ -1,17 +1,18 @@
 @import-normalize; /* bring in normalize.css styles */
-:root{
---color-white:#FFFFFF;
---color-blue:#6299FF;
---color-black:#000000;
---color-backgroundTubes:#F5F0EC;
---color-green:#D6F74C;
+:root {
+  --color-white: #ffffff;
+  --color-blue: #6299ff;
+  --color-black: #000000;
+  --color-backgroundTubes: #f5f0ec;
+  --color-green: #d6f74c;
 
---default-color:#ffffff;
+  --default-color: #ffffff;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
