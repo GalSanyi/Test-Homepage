@@ -66,3 +66,20 @@
   text-transform: uppercase;
   color: var(--color-blue);
 }
+
+@media screen and (min-width: 768px) {
+  .hero__img {
+    background-image: url('../../images/hero-desktop.png');
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__img {
+    background-image: url('../../images/hero-desktop.png');
+    position: relative;
+    width: 100%;
+    height: 688px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+  }
+}
