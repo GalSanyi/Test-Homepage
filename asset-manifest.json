@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Test-Homepage/static/css/main.d3d71519.css",
-    "main.js": "/Test-Homepage/static/js/main.27d5659c.js",
+    "main.css": "/Test-Homepage/static/css/main.b070afc4.css",
+    "main.js": "/Test-Homepage/static/js/main.bd019b11.js",
+    "static/media/hero-desktop.png": "/Test-Homepage/static/media/hero-desktop.603a6a6082229ff8dd38.png",
     "static/media/HeroMobile.png": "/Test-Homepage/static/media/HeroMobile.42212565a828c92d0151.png",
     "static/media/FrameGirl.png": "/Test-Homepage/static/media/FrameGirl.5688338ebeedb6c23a4a.png",
     "static/media/Glow.png": "/Test-Homepage/static/media/Glow.bd915006c67ea9f7472b.png",
@@ -19,13 +20,11 @@
     "index.html": "/Test-Homepage/index.html",
     "static/media/UserCircle.svg": "/Test-Homepage/static/media/UserCircle.91b0a41ded6c73ed289fde38b2e28534.svg",
     "static/media/BagSimple.svg": "/Test-Homepage/static/media/BagSimple.1edcad31d4c1ac237eb0c2d743d0c405.svg",
-    "static/media/Glass.svg": "/Test-Homepage/static/media/Glass.fbd5c3133af6b3671ee71fe919cc25ff.svg",
-    "static/media/Hamburger.svg": "/Test-Homepage/static/media/Hamburger.ad21a5c4c627dcc579bbbb73d869e196.svg",
-    "main.d3d71519.css.map": "/Test-Homepage/static/css/main.d3d71519.css.map",
-    "main.27d5659c.js.map": "/Test-Homepage/static/js/main.27d5659c.js.map"
+    "main.b070afc4.css.map": "/Test-Homepage/static/css/main.b070afc4.css.map",
+    "main.bd019b11.js.map": "/Test-Homepage/static/js/main.bd019b11.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3d71519.css",
-    "static/js/main.27d5659c.js"
+    "static/css/main.b070afc4.css",
+    "static/js/main.bd019b11.js"
   ]
 }
